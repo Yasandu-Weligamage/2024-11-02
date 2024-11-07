@@ -1,0 +1,24 @@
+.box{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    
+    position: absolute;
+    bottom: 20px;
+}
+
+.link:hover{
+    background-color: brown;
+
+}
+
+.link:active{
+    color: aqua;
+    background-color: black;
+}
+
+::selection{
+    color: red;
+    background: yellow;
+}
